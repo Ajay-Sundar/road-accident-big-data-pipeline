@@ -1,0 +1,61 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python and notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Archives and assignment submission bundles
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Large/raw datasets
+raw_data/
+raw-data/
+full_data/
+full-data/
+input/
+
+# Spark generated outputs
+checkpoint/
+checkpoints/
+parquet/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+
+# Spark ML model artifacts
+best_*_model/
+final_*_model/
+models/
+model_artifacts/
+
+# Keep curated sample data and docs
+!data/batch_sample/*.csv
+!data/streaming/*.csv
+!docs/*.pdf
+!docs/*.xlsx
+!images/*.png
